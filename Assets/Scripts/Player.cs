@@ -6,6 +6,8 @@ namespace HelloWorld
 {
     public class Player: NetworkBehaviour
     {
+
+        public Material[] colors;
         public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
 
         public override void OnNetworkSpawn()
@@ -14,6 +16,8 @@ namespace HelloWorld
             {
                 Move();
             }
+
+            SetColor();
         }
 
         public void Move()
@@ -44,6 +48,17 @@ namespace HelloWorld
         void Update()
         {
             transform.position = Position.Value;
+        }
+
+        private void SetColor(){
+
+            Debug.Log("Debería asignarse un color");
+
+            int random = Random.Range(0,10);
+
+            Debug.Log("Se asigna un color random");
+
+            gameObject.GetComponent<Renderer>().material = colors[random];
         }
     }
 }

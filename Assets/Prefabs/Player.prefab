@@ -125,3 +125,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5b284df02f9c1459ad4d5bf1233c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colors:
+  - {fileID: 2100000, guid: 539761feb3993934aa374a18df0f47ca, type: 2}
+  - {fileID: 2100000, guid: 27129b17164691341a90d0ca6c26c95c, type: 2}
+  - {fileID: 2100000, guid: 427ca932f294a88479cd02eaf76a5365, type: 2}
+  - {fileID: 2100000, guid: c41a1ae294757f6468a8c1254cd2af96, type: 2}
+  - {fileID: 2100000, guid: 81eb0fa6a64c62a48a10f7997b53353e, type: 2}
+  - {fileID: 2100000, guid: 663a58db136febb4aa7b0319a2ed004d, type: 2}
+  - {fileID: 2100000, guid: f6561d1d2554ee84c9207ca161c11b3e, type: 2}
+  - {fileID: 2100000, guid: fb4c70f46942dbb4d8006e833c5f24b2, type: 2}
+  - {fileID: 2100000, guid: 28e4711dea04e0f42beb184bcab3c122, type: 2}
+  - {fileID: 2100000, guid: 139a6a366955f384f92555692ad52b63, type: 2}
+  Position:
+    m_InternalValue: {x: 0, y: 0, z: 0}
