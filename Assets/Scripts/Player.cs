@@ -6,7 +6,7 @@ namespace HelloWorld
 {
     public class Player: NetworkBehaviour
     {
-
+        //Creamos un array público para guardar los materiales con colores
         public Material[] colors;
         public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
 
@@ -16,7 +16,7 @@ namespace HelloWorld
             {
                 Move();
             }
-
+            //Llamamos a la función para asignar color en el momento de hacer spawn
             SetColor();
         }
 
@@ -50,13 +50,10 @@ namespace HelloWorld
             transform.position = Position.Value;
         }
 
+        //Función que genera un número aleatoria dentro del rango del array y asigna el color que corresponde al índice que marca el random
         private void SetColor(){
 
-            Debug.Log("Debería asignarse un color");
-
             int random = Random.Range(0,10);
-
-            Debug.Log("Se asigna un color random");
 
             gameObject.GetComponent<Renderer>().material = colors[random];
         }
