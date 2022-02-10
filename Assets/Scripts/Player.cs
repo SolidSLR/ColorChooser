@@ -15,9 +15,10 @@ namespace HelloWorld
              if (IsOwner)
             {
                 Move();
+                SetColor();
             }
             //Llamamos a la función para asignar color en el momento de hacer spawn
-            SetColor();
+            
         }
 
         public void Move()
