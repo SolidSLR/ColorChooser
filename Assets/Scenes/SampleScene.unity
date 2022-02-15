@@ -321,8 +321,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 932607355}
-  - component: {fileID: 932607354}
   - component: {fileID: 932607353}
+  - component: {fileID: 932607354}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -528,3 +528,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d7955b9000c8340ba4f4c96f899a48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color1: {fileID: 2100000, guid: 539761feb3993934aa374a18df0f47ca, type: 2}
+  color2: {fileID: 2100000, guid: 27129b17164691341a90d0ca6c26c95c, type: 2}
